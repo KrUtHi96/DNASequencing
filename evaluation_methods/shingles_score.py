@@ -57,11 +57,16 @@ class ShinglesScore:
 
 def main():
     genome = helper_functions.read_genome("../Dataset/lambda_virus.fa")
-    a, b = genome, genome
+    a, b = genome[:100], genome[:100]
 
-    for i in range(10000):
+    for i in range(50):
         index = random.randint(0, len(b))
         b = b[:index] + 'C' + b[index + 1:]
+
+    b = a
+
+    # b_sliced = b[:50] + a[50:]
+    # b = b_sliced
 
     print(len(a), len(b))
 

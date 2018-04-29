@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8994867f-b777-4c37-a20a-dadb34daa804" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DNASequencing.iml" afterPath="$PROJECT_DIR$/.idea/DNASequencing.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DNAHelper/__init__.py" afterPath="$PROJECT_DIR$/de_bruijn/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/DNAHelper/helper_functions.py" afterPath="$PROJECT_DIR$/dna_utils/helper_functions.py" />
-      <change beforePath="$PROJECT_DIR$/DeBruijnGraph/DeBruijn.py" afterPath="$PROJECT_DIR$/de_bruijn/DeBruijn.py" />
-      <change beforePath="$PROJECT_DIR$/DeBruijnGraph/__init__.py" afterPath="$PROJECT_DIR$/dna_utils/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/.ipynb_checkpoints/Dataset-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Dataset/.ipynb_checkpoints/Dataset-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/Dataset.ipynb" afterPath="$PROJECT_DIR$/Dataset/Dataset.ipynb" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/SRR835775_1.first1000.fastq" afterPath="$PROJECT_DIR$/Dataset/SRR835775_1.first1000.fastq" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/lambda_virus.fa" afterPath="$PROJECT_DIR$/Dataset/lambda_virus.fa" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/phix.fa" afterPath="$PROJECT_DIR$/Dataset/phix.fa" />
-      <change beforePath="$PROJECT_DIR$/Extras/Dataset/phix.fastq" afterPath="$PROJECT_DIR$/Dataset/phix.fastq" />
-      <change beforePath="$PROJECT_DIR$/GreedySCS/__init__.py" afterPath="$PROJECT_DIR$/greedy_scs/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/GreedySCS/greedy_scs.py" afterPath="$PROJECT_DIR$/greedy_scs/greedy_scs.py" />
-      <change beforePath="$PROJECT_DIR$/SuffixArray/SuffixArray.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixArray/SuffixArrayTest.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixArray/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixTree/SuffixTree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixTree/SuffixTreeNode.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixTree/SuffixTreeTest.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SuffixTree/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/evaluation_methods/shingles_score.py" afterPath="$PROJECT_DIR$/evaluation_methods/shingles_score.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DNASequencing.iml" afterPath="$PROJECT_DIR$/.idea/DNASequencing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de_bruijn/DeBruijn.py" afterPath="$PROJECT_DIR$/de_bruijn/DeBruijn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py" afterPath="$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation_methods/shingles_score.py" afterPath="$PROJECT_DIR$/evaluation_methods/shingles_score.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_dataset/generate_dataset.py" afterPath="$PROJECT_DIR$/generate_dataset/generate_dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py" afterPath="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py" afterPath="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlap_methods/suffix_tree_test.py" afterPath="$PROJECT_DIR$/overlap_methods/suffix_tree_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +20,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,26 +60,27 @@
         <option value="$PROJECT_DIR$/SuffixTree/SuffixTree.py" />
         <option value="$PROJECT_DIR$/DeBruijnGraph/DeBruijn.py" />
         <option value="$PROJECT_DIR$/GreedySCS/greedy_scs.py" />
-        <option value="$PROJECT_DIR$/generate_dataset/generate_dataset.py" />
-        <option value="$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py" />
-        <option value="$PROJECT_DIR$/evaluation_methods/shingles_score.py" />
         <option value="$PROJECT_DIR$/overlap_methods/overlap_score_pigeonhole.py" />
         <option value="$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm_old.py" />
         <option value="$PROJECT_DIR$/genetic_algorithm/Genetic_Algorithm_old.py" />
         <option value="$PROJECT_DIR$/read_dataset/read_dataset.py" />
         <option value="$PROJECT_DIR$/Extras/Genetic Algorithm/Genetic_Algorithm.ipynb" />
+        <option value="$PROJECT_DIR$/overlap_methods/suffix_tree.py" />
         <option value="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py" />
         <option value="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py" />
-        <option value="$PROJECT_DIR$/overlap_methods/suffix_tree.py" />
+        <option value="$PROJECT_DIR$/generate_dataset/generate_dataset.py" />
+        <option value="$PROJECT_DIR$/evaluation_methods/shingles_score.py" />
+        <option value="$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py" />
         <option value="$PROJECT_DIR$/overlap_methods/suffix_tree_test.py" />
+        <option value="$PROJECT_DIR$/de_bruijn/DeBruijn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -111,19 +100,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="DNASequencing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DNASequencing" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNASequencing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNASequencing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNASequencing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DNASequencing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeBruijn Graphs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,15 +141,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KRUTHI\Desktop\Repositories\DNASequencing\read_dataset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prakash\Desktop\DNASequencing\Dataset" />
       <recent name="C:\Users\I348533\Desktop\DNASequencing\Extras" />
       <recent name="C:\Users\I348533\Desktop\DNASequencing" />
       <recent name="C:\Users\KRUTHI\Desktop\Repositories\DNASequencing\genetic_algorithm" />
       <recent name="C:\Users\KRUTHI\Desktop\Repositories\DNASequencing\overlap_methods" />
-      <recent name="C:\Users\KRUTHI\Desktop\Repositories\DNASequencing\evaluation_methods" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KRUTHI\Desktop\Repositories\DNASequencing\read_dataset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,80 +164,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.suffix_tree_test">
-    <configuration name="SuffixArrayTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DeBruijn">
+    <configuration default="false" name="generate_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SuffixArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generate_dataset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNASequencing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SuffixArray/SuffixArrayTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_dataset/generate_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="SuffixTreeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="shingles_score" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SuffixTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation_methods" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNASequencing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SuffixTree/SuffixTreeTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation_methods/shingles_score.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="genetic_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/genetic_algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DNASequencing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="genetic_algorithm_utilities" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/genetic_algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DNASequencing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="suffix_tree_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="overlap_score_pigeonhole" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,11 +213,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DNASequencing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/overlap_methods/suffix_tree_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/overlap_methods/overlap_score_pigeonhole.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeBruijn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/de_bruijn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNASequencing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/de_bruijn/DeBruijn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +248,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
+      <module name="DNASequencing" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -307,21 +299,58 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SuffixArrayTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SuffixTreeTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.genetic_algorithm" />
-      <item index="3" class="java.lang.String" itemvalue="Python.genetic_algorithm_utilities" />
-      <item index="4" class="java.lang.String" itemvalue="Python.suffix_tree_test" />
+    <configuration default="false" name="needleman_wunsch.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\prakash\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNASequencing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="suffix_tree_test.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\prakash\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DNASequencing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/overlap_methods/suffix_tree_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.needleman_wunsch.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.suffix_tree_test.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.generate_dataset" />
+      <item index="3" class="java.lang.String" itemvalue="Python.shingles_score" />
+      <item index="4" class="java.lang.String" itemvalue="Python.overlap_score_pigeonhole" />
+      <item index="5" class="java.lang.String" itemvalue="Python.DeBruijn" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.suffix_tree_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.genetic_algorithm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.genetic_algorithm_utilities" />
-        <item index="3" class="java.lang.String" itemvalue="Python.SuffixTreeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SuffixArrayTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.DeBruijn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.overlap_score_pigeonhole" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shingles_score" />
+        <item index="3" class="java.lang.String" itemvalue="Python.generate_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -345,28 +374,61 @@
     <history-entry file="Unittests_in_n_grams_py - 2018.03.24 at 10h 28m 14s.xml">
       <configuration name="Unittests in n_grams.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_needleman_wunsch_py - 2018.04.29 at 22h 34m 43s.xml">
+      <configuration name="Unittests in needleman_wunsch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_needleman_wunsch_py - 2018.04.29 at 22h 34m 50s.xml">
+      <configuration name="Unittests in needleman_wunsch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_needleman_wunsch_py - 2018.04.29 at 22h 35m 07s.xml">
+      <configuration name="Unittests in needleman_wunsch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_needleman_wunsch_py - 2018.04.29 at 22h 35m 56s.xml">
+      <configuration name="Unittests in needleman_wunsch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_suffix_tree_test_py - 2018.04.29 at 22h 37m 00s.xml">
+      <configuration name="Unittests in suffix_tree_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_suffix_tree_test_py - 2018.04.29 at 22h 37m 16s.xml">
+      <configuration name="Unittests in suffix_tree_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_suffix_tree_test_py - 2018.04.29 at 22h 39m 16s.xml">
+      <configuration name="Unittests in suffix_tree_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_suffix_tree_test_py - 2018.04.29 at 22h 39m 24s.xml">
+      <configuration name="Unittests in suffix_tree_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35608646" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3502455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35515547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35153583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,32 +473,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Extras/suffix_array/SuffixArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb" />
     <entry file="file://$PROJECT_DIR$/Dataset/phix.fa">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -557,34 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Suffix Tree - Notebooks/suffix_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3064">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Approximate APSP Methods/overlap_score_pigeonhole.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Suffix Tree - Notebooks/suffix_array.py" />
+    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Genetic Algorithm/Genetic_Algorithm.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Approximate APSP Methods/overlap_score_pigeonhole.ipynb" />
     <entry file="file://$PROJECT_DIR$/dna_overlap.py" />
     <entry file="file://$PROJECT_DIR$/generate_dataset.py" />
     <entry file="file://$PROJECT_DIR$/Suffix Tree - using Suffix array and LCP.ipynb" />
@@ -617,7 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plots/DeBruijn Graphs/testGraph.dot.png" />
     <entry file="file://$PROJECT_DIR$/Plots/DeBruijn Graphs/testGraph.dot" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,21 +651,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overlap_methods/overlap_score_pigeonhole.py">
+    <entry file="file://$PROJECT_DIR$/Extras/Genetic Algorithm/Genetic_Algorithm.ipynb" />
+    <entry file="file://$PROJECT_DIR$/read_dataset/read_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/dna_utils/helper_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="60">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overlap_methods/suffix_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4124">
+          <caret line="81" column="34" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extras/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greedy_scs/greedy_scs.py" />
-    <entry file="file://$PROJECT_DIR$/Extras/Genetic Algorithm/Genetic_Algorithm.ipynb" />
-    <entry file="file://$PROJECT_DIR$/read_dataset/read_dataset.py" />
     <entry file="file://$PROJECT_DIR$/generate_dataset/generate_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="241">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -657,96 +695,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluation_methods/shingles_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluation_methods/needleman_wunsch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="190">
+          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/genetic_algorithm/genetic_algorithm_utilities.py">
+    <entry file="file://$PROJECT_DIR$/overlap_methods/overlap_score_pigeonhole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="109" column="19" lean-forward="false" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
-          <folding>
-            <element signature="e#233#310#0" expanded="false" />
-            <element signature="e#363#528#0" expanded="false" />
-            <element signature="e#647#1017#0" expanded="false" />
-            <element signature="e#748#851#0" expanded="false" />
-            <element signature="e#963#1017#0" expanded="false" />
-            <element signature="e#1098#1596#0" expanded="false" />
-            <element signature="e#1168#1570#0" expanded="false" />
-            <element signature="e#1310#1457#0" expanded="false" />
-            <element signature="e#1516#1570#0" expanded="false" />
-            <element signature="e#1648#1798#0" expanded="false" />
-            <element signature="e#1850#2071#0" expanded="false" />
-            <element signature="e#1917#2050#0" expanded="false" />
-            <element signature="e#2565#2929#0" expanded="false" />
-            <element signature="e#2642#2818#0" expanded="false" />
-            <element signature="e#2676#2818#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="-1391">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dna_utils/helper_functions.py">
+    <entry file="file://$PROJECT_DIR$/Plots/DeBruijn Graphs/testGraph2.dot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plots/DeBruijn Graphs/testGraph.dot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy_scs/greedy_scs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de_bruijn/DeBruijn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overlap_methods/suffix_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4124">
-          <caret line="81" column="34" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#8835#11930#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/overlap_methods/suffix_tree_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="438">
+          <caret line="123" column="18" lean-forward="true" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extras/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

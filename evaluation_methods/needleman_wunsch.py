@@ -75,7 +75,7 @@ def NW_score(a, b, gap_penalty=-5):
     return (align_a, align_b, score)
 
 
-def test(a, b):
+def test1(a, b):
     align_a, align_b, score = NW_score(a, b)
 
     print("String 1", a)
@@ -87,5 +87,5 @@ def test(a, b):
 
 
 if __name__ == "__main__":
-    test("TCGCTTAAGTATGCTTTTAG", "GAACAAAACTCAATAAAATAGAACAAAACTCAATAAAATA")
-    test("paper", "coinpaper")
+    test1("TCGCTTAAGTATGCTTTTAG", "GAACAAAACTCAATAAAATAGAACAAAACTCAATAAAATA")
+    test1("paper", "coinpaper")

@@ -48,6 +48,7 @@ class GenerateDataset:
         numbers = numbers.round().astype(int)
 
         # plt.hist(numbers, 2 * self.extreme + 1)
+        # plt.show()
 
         self.genome = ''.join([self.int_to_gene(n) for n in numbers])
 

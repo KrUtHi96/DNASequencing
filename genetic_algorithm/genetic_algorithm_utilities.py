@@ -43,6 +43,7 @@ class GeneticAlgorithmUtil:
             index_list = []
             temp = list(range(self.reads_n))
             while len(genome) < gen_len:
+                print('Temp:', len(temp))
                 index = random.choice(temp)
                 temp.remove(index)
                 index_list.append(index)
@@ -104,14 +105,14 @@ class GeneticAlgorithmUtil:
         m_rate = int(0.2 * len(index_list))
         i = 0
         while i <= m_rate:
-            print("inside pop m ", i, m_rate)
+            # print("inside pop m ", i, m_rate)
             index = random.randint(0, len(index_list) - 1)
             t = random.randint(0, self.reads_n - 1)
-            print(t)
+            # print(t)
             if t not in index_list:
                 index_list[index] = t
                 i += 1
-        print("Mutation POP done !!")
+        # print("Mutation POP done !!")
         return self.mutation(index_list)
 
     def find_neighbours(self, index_list_1, index_list_2):
@@ -120,9 +121,16 @@ class GeneticAlgorithmUtil:
         length_2 = len(index_list_2)
 
         for i, idx in enumerate(index_list_1):
-            neighbours[idx] = {index_list_1[i - 1], index_list_1[(i + 1) % length_1]}
+            if idx not in neighbours:
+                neighbours[idx] = set()
+
+            neighbours[idx].add(index_list_1[i - 1])
+            neighbours[idx].add(index_list_1[(i + 1) % length_1])
 
         for i, idx in enumerate(index_list_2):
+            if idx not in neighbours:
+                neighbours[idx] = set()
+
             neighbours[idx].add(index_list_2[i - 1])
             neighbours[idx].add(index_list_2[(i + 1) % length_2])
 

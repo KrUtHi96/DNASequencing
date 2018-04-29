@@ -1,3 +1,5 @@
+import random
+
 from graphviz import render
 
 from overlap_methods.suffix_tree import SuffixTree
@@ -107,6 +109,9 @@ def testcase_3():
 
     input_strings, q = read_dataset.read_fastq('../Dataset/phix.fastq')
 
+    for i, read in enumerate(input_strings):
+        input_strings[i] = read.replace('N', random.choice('AGTC'))
+
     mat = run_testcase(input_strings, min_overlap=min_overlap)
     print('Overlap Matrix Computed...')
     print('Verifying Matrix...')
@@ -114,6 +119,6 @@ def testcase_3():
 
 
 if __name__ == '__main__':
-    # testcase_1()
-    testcase_2()
+    testcase_1()
+    # testcase_2()
     # testcase_3()

@@ -1,19 +1,58 @@
 import random
 
+import time
+
 from generate_dataset import generate_dataset
 from overlap_methods import overlap_score_pigeonhole
 from evaluation_methods import shingles_score
 import genetic_algorithm_utilities
+from read_dataset import read_dataset
+from dna_utils import helper_functions
+
+import numpy as np
+
+from overlap_methods.suffix_tree import SuffixTreeNode, SuffixTree
 
 
-def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.99):
-    gd = generate_dataset.GenerateDataset(error_rate=0, mutation_rate=0)
+def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.9):
+    gd = generate_dataset.GenerateDataset(error_rate=0.0, mutation_rate=0.0)
     genome = gd.random_genome(length=30000)
 
-    reads = gd.random_reads(length=1000, num=5000)
+    reads = gd.random_reads(length=100, num=1000)
 
-    osp = overlap_score_pigeonhole.OverlapScorePigeonhole(reads, overlap_minimum=20, max_error=3)
-    overlap_matrix = osp.overlap_scores()
+    # genome = read_dataset.read_genome('../Dataset/ecoli.fa')
+    # reads, _ = read_dataset.read_fastq('../Dataset/e_coli_1000.fq')
+
+    print(len(reads[0]), len(genome))
+
+    # Preprocessing reads
+    # processed_reads = []
+    # for i, read in enumerate(reads):
+    #     current_read = read.replace('N', random.choice('AGTC'))
+    #     processed_reads.append(current_read)
+    #
+    #     current_read_comp = helper_functions.reverse_complement(current_read)
+    #     processed_reads.append(current_read_comp)
+    #
+    # reads = processed_reads
+    # Pigeonhole principle
+    # osp = overlap_score_pigeonhole.OverlapScorePigeonhole(reads, overlap_minimum=20, max_error=3)
+    # overlap_matrix = osp.overlap_scores()
+
+    # Construct Suffix tree
+    SuffixTreeNode.new_identifier = 0
+    suffix_tree = SuffixTree()
+
+    for read in reads:
+        suffix_tree.append_string(read)
+
+    # Compute matrix
+    overlap_matrix = []
+    for str_num, string in enumerate(reads):
+        overlap_matrix.append(suffix_tree.overlap(str_num, string, min_overlap=0))
+
+    overlap_matrix = np.matrix(overlap_matrix)
+    overlap_matrix = overlap_matrix.T
 
     print("************matrix computed********************")
 
@@ -54,9 +93,9 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.99):
 
                 start = random.randint(1, len(a) - 2)
                 end = random.randint(start + 1, len(a))
-                #genome_new, index_list = gau.crossover1(a, b, start, end)
+                genome_new, index_list = gau.crossover1(a, b, start, end)
 
-                genome_new, index_list = gau.crossover_edge_recombination(a, b)
+                # genome_new, index_list = gau.crossover_edge_recombination(a, b)
                 if genome_new not in population:
                     population[genome_new] = index_list
 
@@ -79,6 +118,8 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.99):
 
 
 if __name__ == '__main__':
+    start = time.time()
     reconstructed_genome, score = GeneticAlgorithm()
+    print('Total Time: {}'.format((time.time() - start)))
 
     print("Best Score :", score)

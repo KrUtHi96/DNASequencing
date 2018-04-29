@@ -147,8 +147,8 @@ class DeBruijnGraph:
 
 
 if __name__ == '__main__':
-	reads = ['a_long_long_long', 'ng_long_l', 'g_long_time']
-	#reads = ['a_long_long_long_time_ago']
+	# reads = ['a_long_long_long', 'ng_long_l', 'g_long_time']
+	reads = ['a_long_long_long_time_ago']
 	k = 8
 	g = DeBruijnGraph(reads, k)
 	
