@@ -14,11 +14,11 @@ import numpy as np
 from overlap_methods.suffix_tree import SuffixTreeNode, SuffixTree
 
 
-def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.9):
+def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.94):
     gd = generate_dataset.GenerateDataset(error_rate=0.0, mutation_rate=0.0)
     genome = gd.random_genome(length=30000)
 
-    reads = gd.random_reads(length=100, num=1000)
+    reads = gd.random_reads(length=1000, num=5000)
 
     # genome = read_dataset.read_genome('../Dataset/ecoli.fa')
     # reads, _ = read_dataset.read_fastq('../Dataset/e_coli_1000.fq')
@@ -49,7 +49,7 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.9):
     # Compute matrix
     overlap_matrix = []
     for str_num, string in enumerate(reads):
-        overlap_matrix.append(suffix_tree.overlap(str_num, string, min_overlap=0))
+        overlap_matrix.append(suffix_tree.overlap(str_num, string, min_overlap=20))
 
     overlap_matrix = np.matrix(overlap_matrix)
     overlap_matrix = overlap_matrix.T
@@ -93,9 +93,9 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.9):
 
                 start = random.randint(1, len(a) - 2)
                 end = random.randint(start + 1, len(a))
-                genome_new, index_list = gau.crossover1(a, b, start, end)
+                # genome_new, index_list = gau.crossover1(a, b, start, end)
 
-                # genome_new, index_list = gau.crossover_edge_recombination(a, b)
+                genome_new, index_list = gau.crossover_edge_recombination(a, b)
                 if genome_new not in population:
                     population[genome_new] = index_list
 
@@ -119,7 +119,7 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.9):
 
 if __name__ == '__main__':
     start = time.time()
-    reconstructed_genome, score = GeneticAlgorithm()
+    reconstructed_genome, score = GeneticAlgorithm(threshold=0.99)
     print('Total Time: {}'.format((time.time() - start)))
 
     print("Best Score :", score)

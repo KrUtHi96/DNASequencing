@@ -30,3 +30,17 @@ def reverse_complement(s):
     for base in s:
         t = complement[base] + t
     return t
+
+
+def overlap(a, b, min_len=3):
+    start = 0
+
+    while True:
+        start = a.find(b[:min_len], start)
+        if start == -1:
+            return 0
+
+        if b.startswith(a[start:]):
+            return len(a) - start
+
+        start += 1
