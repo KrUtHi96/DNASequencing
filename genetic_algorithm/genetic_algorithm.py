@@ -1,4 +1,5 @@
 import random
+from matplotlib import pyplot as plt
 
 import time
 
@@ -60,10 +61,14 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.94):
 
     gau = genetic_algorithm_utilities.GeneticAlgorithmUtil(reads, overlap_matrix)
 
-    population = gau.initialize_pop(size, len(genome)) #Works..
-    #population = gau.initialize_population(size)
+    population = gau.initialize_pop(size, len(genome))  # Works..
+    # population = gau.initialize_population(size)
 
     max_so_far = {'genome': '', 'score': -10}
+
+    # Plotting Evaluation scores
+    # xx = []
+    # yy = []
 
     count = 1
     while count <= generations:
@@ -93,9 +98,10 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.94):
 
                 start = random.randint(1, len(a) - 2)
                 end = random.randint(start + 1, len(a))
-                # genome_new, index_list = gau.crossover1(a, b, start, end)
 
-                genome_new, index_list = gau.crossover_edge_recombination(a, b)
+                genome_new, index_list = gau.crossover1(a, b, start, end)
+
+                # genome_new, index_list = gau.crossover_edge_recombination(a, b)
                 if genome_new not in population:
                     population[genome_new] = index_list
 
@@ -110,9 +116,20 @@ def GeneticAlgorithm(size=100, generations=60, select_n=60, threshold=0.94):
                 population[temp_gen] = temp
 
         print("Generation :", count, max_so_far['score'])
+
+        # xx.append(count)
+        # yy.append(max_so_far['score'])
+
         count += 1
 
         print("Population len", len(population))
+
+    # plt.plot(xx, yy, '-', label='Evaluation Score')
+    # plt.xlabel('Generations')
+    # plt.ylabel('Evaluation Score')
+    # plt.title('Score vs Generation Plot')
+    # plt.legend()
+    # plt.show()
 
     return max_so_far['genome'], max_so_far['score']
 

@@ -1,6 +1,10 @@
 import random
 
 from graphviz import render
+import time
+
+from matplotlib import pyplot as plt
+import numpy as np
 
 from overlap_methods.suffix_tree import SuffixTree
 from overlap_methods.suffix_tree import SuffixTreeNode
@@ -118,7 +122,61 @@ def testcase_3():
     verify_matrix(input_strings, mat, read_len=read_len, min_overlap=min_overlap)
 
 
+def plot_st_const():
+    read_len = 100
+    min_overlap = 0
+    verbose = False
+
+    gd = generate_dataset.GenerateDataset(error_rate=0.6, mutation_rate=0.6)
+    _ = gd.random_genome(length=10000)
+
+    xx = list(range(5, 201, 5))
+    yy = []
+    yy2 = []
+    for x in xx:
+        print(x)
+        input_strings = gd.random_reads(length=read_len, num=x)
+        SuffixTreeNode.new_identifier = 0
+        suffix_tree = SuffixTree()
+
+        # start = time.time()
+        for s in input_strings:
+            suffix_tree.append_string(s)
+        # yy.append(time.time() - start)
+
+        overlap_matrix = []
+        start = time.time()
+        for str_num, string in enumerate(input_strings):
+            overlap_matrix.append(suffix_tree.overlap(str_num, string, min_overlap=min_overlap, verbose=verbose))
+        yy2.append(time.time() - start)
+
+    # plt.plot(xx, yy, 'o', label='Data Points')
+
+    # Trend line
+    # z = np.polyfit(xx, yy, 1)
+    # p = np.poly1d(z)
+    # plt.plot(xx, p(xx), "r--", label='Trend Line')
+    #
+    # plt.xlabel("Input Size")
+    # plt.ylabel("Time")
+    # plt.title("Suffix Tree Construction - Time Complexity O(n)")
+    # plt.legend()
+
+    # plt.show()
+
+    plt.plot(xx, yy2, 'o', label='Data Points')
+
+    plt.xlabel("Input Size")
+    plt.ylabel("Time")
+    plt.title("Overlap Matrix - Time Complexity O(n^2)")
+    plt.legend()
+    plt.show()
+
+
+
 if __name__ == '__main__':
     testcase_1()
+    # testcase_1()
     # testcase_2()
     # testcase_3()
+    # plot_st_const()
